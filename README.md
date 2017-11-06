@@ -7,13 +7,16 @@ Lambda function to store data in s3 using Python 3.6
 
 ### Steps
 1. install boto3 library in the project folder by below command:
+```python
 pip install boto3 -t .
-
+```
 2. Create a config file with the name s3config.py in the same project folder with the following format:
+```javascript
 s3 = {
     'aws_access_id': 'your aws access id',
     'aws_access_key': 'you aws access key'
 }
+```
 To get access id and access key follow instructions [Here](http://docs.aws.amazon.com/general/latest/gr/managing-aws-access-keys.html)
 
 3. Create deployment project of the project. Select necessary files and dependencies inside the project folder and compress in .zip format.
@@ -29,6 +32,7 @@ To get access id and access key follow instructions [Here](http://docs.aws.amazo
 8. Select appropriate role and click on save.
 
 9. Create a new test case as mentioned below:
+```javascript
 {
 "body": 
       {
@@ -37,3 +41,4 @@ To get access id and access key follow instructions [Here](http://docs.aws.amazo
   "key1": "value1"
       }
 }
+```
