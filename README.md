@@ -2,8 +2,8 @@
 Lambda function to store data in s3 using Python 3.6
 
 ### Dependencies
-1) boto3
-2) json
+1) [boto3](https://boto3.readthedocs.io/en/latest/guide/s3-examples.html)
+2) [json](https://docs.python.org/3/library/json.html)
 
 ### Steps
 1. install boto3 library in the project folder by below command:
