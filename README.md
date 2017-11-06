@@ -8,7 +8,7 @@ Lambda function to store data in s3 using Python 3.6
 ### Steps
 1. install boto3 library in the project folder by below command:
 ```python
-pip install boto3 -t .
+pip install boto3 -t .      # Install boto3 in the project directory
 ```
 2. Create a config file with the name s3config.py in the same project folder with the following format:
 ```javascript
