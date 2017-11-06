@@ -10,7 +10,7 @@ Lambda function to store data in s3 using Python 3.6
 ```python
 pip install boto3 -t .      # Install boto3 in the project directory
 ```
-2. Create a config file with the name s3config.py in the same project folder with the following format:
+2. Create a config file with the name **s3config.py** in the same project folder with the following format and import in the **Lambdas3.py** file:
 ```javascript
 s3 = {
     'aws_access_id': 'your aws access id',
