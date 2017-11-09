@@ -46,3 +46,8 @@ To get access id and access key follow instructions [Here](http://docs.aws.amazo
 ```
 
 ### LambdaRDS
+
+1. install boto3 library in the project folder by below command:
+```python
+pip install pymysql -t .      # Install boto3 in the project directory
+```
